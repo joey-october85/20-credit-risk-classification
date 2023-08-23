@@ -13,7 +13,7 @@ The purpose of this exercise is to train and evaluate a model based on loan risk
 **Recall:** Out of the total risky loans, 91% were predicted as risky<br><br>
 
 
-While we see a high Accuracy score for the entire model as well as for Healthy Loan predictions, we are getting a lower prediction accuracy for Risky Loans. Specifically, the model predicted that 56 of the Risky Loans were Healthy Loans. The difference in accuracy could come from an imbalanced dataset that has a disparity between the two categories where Healthy Loan data outnumbers Risky Loan data at roughly 30:1.<br><br>
+While we see a high Accuracy score for the entire model as well as for Healthy Loan predictions, we are getting a lower Recall accuracy for Risky Loans. Specifically, the model predicted that 56 of the Risky Loans were Healthy Loans. The difference in accuracy could come from an imbalanced dataset that has a disparity between the two categories where Healthy Loan data outnumbers Risky Loan data at roughly 30:1.<br><br>
 
 
 
