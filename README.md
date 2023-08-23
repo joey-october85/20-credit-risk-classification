@@ -42,7 +42,7 @@ Credits
 https://www.youtube.com/watch?v=HtBDg619ozg
 
 
-### Language(s)/Libraries/Dependencies
+**Language(s)/Libraries/Dependencies**
 Python<br>
 numpy <br>
 pandas <br>
