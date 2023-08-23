@@ -32,9 +32,34 @@ In order to get a better accuracy on risky loans, the dataset was synthetically 
 ## Summary
 The resampled model seems to perform better as it was able to better predict Risky Loans while still maintaining Healthy Loan prediction accuracy. This will be beneficial in ensuring better success in preventing Risky Loans being predicted as Healthy Loans.
 
+#
+
+Credits
 #### Jose A Rodriguez<br>Turor: Saad Khan<br>
 <br>
 
 **Imbalance Dataset(Over Sampling Under Sampling) by Data Science ML Professional**<br>
 https://www.youtube.com/watch?v=HtBDg619ozg
+
+
+### Language(s)/Libraries
+Python<br>
+numpy <br>
+pandas <br>
+pathlib<br>
+
+sklearn.metrics
+ - balanced_accuracy_score
+ - confusion_matrix
+ - classification_report
+ 
+ sklearn.model_selection
+ - train_test_split
+
+sklearn.linear_model
+ - LogisticRegression
+
+imblearn.over_sampling
+ - RandomOverSampler
+
 
