@@ -3,7 +3,7 @@
 The purpose of this exercise is to train and evaluate a model based on loan risk. The dataset evaluates lending activity to build a model that can identify borrower creditworthiness where the focus is to minimize incorrect predictions of risky loans as healthy loans.<br><br>
 
 ### Model 01 - Logistic Regression Model
-**Accuracy:**  95%<br><br>
+**Balanced Accuracy Score:**  95%<br><br>
 **<ins>Healthy Loans</ins>**<br>
 **Precision:** Out of all the healthy loans that were predicted, 100% were truly healthy loans.<br>
 **Recall:** Out of the total healthy loans, 99% were predicted as healthy<br><br>
@@ -18,7 +18,7 @@ While we see a high Accuracy score for the entire model as well as for Healthy L
 
 
 ### Model 02 - Logistic Regression Model with Resampled Training data
-**Accuracy:** 99%<br><br>
+**Balanced Accuracy Score:** 99%<br><br>
 **<ins>Healthy Loans</ins>**<br>
 **Precion:** Out of all the healthy loans that were predicted, 100% were truly healthy loans.<br>
 **Recall:** Out of total healthy loans, 99% were predicted as healthy<br><br>
