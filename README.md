@@ -29,6 +29,9 @@ While we see a high Accuracy score for the entire model as well as for Healthy L
 
 In order to get a better accuracy on risky loans, the dataset was synthetically balanced using the RandomOverSampler module to resample the data and retrain the model with a 1:1 ratio of Healthy Loan data to Risky Loan data. While the overall accuracy increased from 95% to 99%, the important change occured with the recall accuracy of risky loan predictions which increased from 91% to 99%. This means that Risky Loans that were predicted as Healthy Loans went down from 56 to 4 which is a significant improvement. The accuracy of Healthy Loan Precision and Recall as well as Risky Loan Precision stayed nearly the same with the resampled model.<br><br>
 
+## Summary
+The resampled model seems to perform better as it was able to better predict Risky Loans while still maintaining Healthy Loan prediction accuracy. This will be beneficial in ensuring better success in preventing Risky Loans being predicted as Healthy Loans.
+
 #### Jose A Rodriguez<br>Turor: Saad Khan<br>
 <br>
 
